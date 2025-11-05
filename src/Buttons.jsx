@@ -1,4 +1,10 @@
+import { data } from "./data"
 function Buttons ({filteredClothes}) {
+  const filteredClothes = (searchTerm) => {
+    const newClothesArray = data.filter(item => item.searchTerm.includes(searchTerm))
+    setClothes(newClothesArray)
+  }
+  )
   return (
     <div className="cont">
       <button className="change" onClick={() => setProducts(dataShop)}>Show all</button>

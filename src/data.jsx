@@ -4,7 +4,7 @@ export const data = [
 
     name: "Party dress",
 
-    searchTerm: "dress",
+    searchTerm: ["woman", "dress"],
 
     title: "party-dress",
 
@@ -19,7 +19,7 @@ export const data = [
 
     name: "Summer dress",
 
-    searchTerm: "dress",
+    searchTerm: ["woman", "dress"],
 
     title:"summer-dress",
 
@@ -34,7 +34,7 @@ export const data = [
 
     name: "Fancy pants",
 
-    searchTerm: "pants",
+    searchTerm: ["man", "pants"],
     
     title:"fancy-pants",
     price: 199.99,
@@ -48,7 +48,7 @@ export const data = [
 
     name: "Jeans",
 
-    searchTerm: "pants",
+    searchTerm: ["man", "pants"],
     title: "jeans-blue",
 
     price: 100.99,
@@ -62,7 +62,7 @@ export const data = [
 
     name: "Cute skirt",
 
-    searchTerm: "skirt",
+    searchTerm: ["woman", "skirt"],
 
     title: "cute-skirt",
 
@@ -77,7 +77,7 @@ export const data = [
 
     name: "Beauty",
 
-    searchTerm: "skirt",
+    searchTerm: ["woman", "skirt"],
 
     title:"beauty-skirt",
 
@@ -92,7 +92,7 @@ export const data = [
 
     name: "Business meeting",
 
-    searchTerm: "shirt",
+    searchTerm:["woman", "shirt"],
 
     title: "business-shirt",
 
@@ -107,7 +107,7 @@ export const data = [
 
     name: "Lunch with friends",
 
-    searchTerm: "shirt",
+    searchTerm: ["man", "shirt"],
     title: "casual-shirt",
 
     price: 284,
@@ -121,7 +121,7 @@ export const data = [
 
     name: "Carrie shoes",
 
-    searchTerm: "shoes",
+    searchTerm: ["woman", "shoes"],
 
     title: "nice-shoes",
 
@@ -136,7 +136,7 @@ export const data = [
 
     name: "Amanda shoes",
 
-    searchTerm: "shoes",
+    searchTerm: ["woman", "shoes"],
 
     title: "shoes-cute",
 
@@ -151,7 +151,7 @@ export const data = [
 
     name: "Miranda shoes",
 
-    searchTerm: "shoes",
+    searchTerm: ["man", "shoes"],
 
     title: "classic-shoes",
 
@@ -166,7 +166,7 @@ export const data = [
 
     name: "Cute dress",
 
-    searchTerm: "dress",
+    searchTerm: ["woman", "dress"],
 
     title: "cute-dress",
 
@@ -181,7 +181,7 @@ export const data = [
 
     name: "Pants",
 
-    searchTerm: "pants",
+    searchTerm: ["man", "pants"],
 
     title: "nice-pants",
 
@@ -196,7 +196,7 @@ export const data = [
 
     name: "Lunch with friends",
 
-    searchTerm: "skirt",
+    searchTerm: ["woman", "skirt"],
     title: "casual-skirt",
 
     price: 284,
@@ -210,7 +210,7 @@ export const data = [
 
     name: "Lunch with friends",
 
-    searchTerm: "shirt",
+    searchTerm: ["man", "shirt"],
     title: "short-shirt",
 
     price: 284.99,
